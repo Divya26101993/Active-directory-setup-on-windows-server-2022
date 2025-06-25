@@ -63,6 +63,48 @@ Once all the settings are configured for the virtual machine, click Finish to co
 
 ### Step 3: Setting up Active Directory in windows server 2022
 
+The screenshot below shows the Windows Server 2022 in virtual machine
+
+![Image](https://github.com/user-attachments/assets/939b2d25-3454-4f80-b948-46f4545486b9)
+
+
+On the left side My computer-> windows server 2022-> Right click-> Settings
+
+You can modify all VM settings, such as the processor, memory, and more
+
+![Image](https://github.com/user-attachments/assets/cd859510-e3f3-49c1-bace-34fc850ad49d)
+
+In the settings Select CD/DVD(SATA)
+
+![Image](https://github.com/user-attachments/assets/ad71ef6b-642c-4565-a911-3f8ebffb4445)
+
+As mentioned earlier, we will browse for the OS here. Select Use ISO image file and then browse to select the file and click ok.
+
+![Image](https://github.com/user-attachments/assets/27fb63ef-e532-484a-952c-d59e701eea0c)
+
+Once all settings are configured, power on the virtual machine
+
+![Image](https://github.com/user-attachments/assets/68c91cf2-96e3-4717-9bea-cb3c323ffd7d)
+
+The language selection window will appear. You can leave it as the default or change the language if needed
+
+![Image](https://github.com/user-attachments/assets/7c341050-94b3-4a8d-a096-269603d01361)
+
+When the screen below appears, press any key on the keyboard to proceed to the Windows Install screen
+
+![Image](https://github.com/user-attachments/assets/1495d892-05e1-4621-a1ab-e40034375a46)
+
+If you don't press a key, the following error will appear
+
+![Image](https://github.com/user-attachments/assets/7952e9b3-4aa8-4409-b36d-e6beb09802e2)
+
+Click install to download OS
+
+![Image](https://github.com/user-attachments/assets/49acf621-12d5-4b66-ad04-2cc9b8974b3c)
+
+
+
+
 
 
 
