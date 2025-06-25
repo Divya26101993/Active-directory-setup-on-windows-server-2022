@@ -6,4 +6,48 @@ By following this guide, you'll create a virtualized domain controller, perfect 
 
 ## Requirements
 
+- VMware Workstation or Player
+- Windows server 2022 ISO file
+- At least 2GB of RAM, 60GB of disk space, and 2 processors allocated to your virtual machine for optimal performance
+
+## Installation Steps
+
+### Step 1:Download windows server iso file
+
+Search for Microsoft Windows Server 2022 free download on Google and click on the link for Windows Server 2022 | Microsoft Evaluation Center
+
+![Image](https://github.com/user-attachments/assets/2d80996d-714c-46c6-8aa6-70868b13363c)
+
+The following screen will appear. From there, select your preferred language and choose the ISO download for the 64-bit edition
+
+![Image](https://github.com/user-attachments/assets/cc3810e8-2a7f-4ff4-a159-5e28dca53d84)
+
+Once you click the link, the Windows Server ISO file will begin downloading. Allow some time for the download to finish. When it's 100% complete, navigate to your Downloads folder to verify that the file is correct and fully downloaded
+
+![Image](https://github.com/user-attachments/assets/b2a6a258-0c89-4c4a-b2ed-205b96433e5a)
+
+
+### Step 2: Install windows server 22 in VMware
+
+Launch VMware Workstation and select the option to create a new virtual machine
+
+![Image](https://github.com/user-attachments/assets/dd69f1c5-f758-4cac-9dc0-d8f5a7f0bd45)
+
+The following screen will appear, prompting you to choose a configuration. For personal and learning purposes, leave the default option (Typical) selected and click Next
+
+![Image](https://github.com/user-attachments/assets/5ad51b0d-c444-45ab-986f-03a36e31dda6)
+
+You can browse and select the operating system here, or choose to do it later. For now, select the second option to install the OS later
+ and click Next
+![Image](https://github.com/user-attachments/assets/57c00151-c8ff-4ff4-b676-06e0ac1af980)
+
+![Image](https://github.com/user-attachments/assets/7bb4c263-07e3-435a-8330-3d1d2bddf676)
+
+Next, we'll select the guest operating system and its version. Choose Windows as the OS and set the version to Windows Server 2022
+
+
+
+
+
+
 
