@@ -239,7 +239,7 @@ When you click Start and navigate to Windows Administrative Tools, you'll be abl
 ![Image](https://github.com/user-attachments/assets/a14975ec-0749-4dba-8121-a629c0038056)
 
 
-### Step 4: Setting up the Active Directory Users and computers
+### Step 4: Setting up Organizational Units(OU), Groups and Users in Active directory
 
 
 
