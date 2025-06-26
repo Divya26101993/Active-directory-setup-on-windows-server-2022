@@ -56,7 +56,7 @@ The screenshot below shows that you can customize the disk capacity, but the rec
 
 ![Image](https://github.com/user-attachments/assets/5483e5ec-e2cc-42db-b7c3-9c54fb2f117d)
 
-After configuring all the settings for the virtual machine, click Finish to complete the setup.
+After configuring all the settings for the virtual machine, click **Finish** to complete the setup.
 
 ![Image](https://github.com/user-attachments/assets/c1131c91-d02b-477c-a589-e7e5ef7fcae6)
 
@@ -73,11 +73,11 @@ You can modify all VM settings, such as the processor, memory, and more
 
 ![Image](https://github.com/user-attachments/assets/cd859510-e3f3-49c1-bace-34fc850ad49d)
 
-In the settings Select CD/DVD (SATA)
+In the settings **Select CD/DVD (SATA)**
 
 ![Image](https://github.com/user-attachments/assets/ad71ef6b-642c-4565-a911-3f8ebffb4445)
 
-As mentioned earlier, browse for the OS here. Select Use ISO image file, then browse to the downloaded file and click OK.
+As mentioned earlier, browse for the OS here. **Select Use ISO image file**, then browse to the downloaded file and click **OK**.
 
 ![Image](https://github.com/user-attachments/assets/27fb63ef-e532-484a-952c-d59e701eea0c)
 
@@ -89,7 +89,7 @@ The language selection window will appear. You can leave it as the default or ch
 
 ![Image](https://github.com/user-attachments/assets/7c341050-94b3-4a8d-a096-269603d01361)
 
-When the screen below appears, press any key on the keyboard to proceed to the Windows Install screen
+When the screen below appears, **press any key on the keyboard** to proceed to the Windows Install screen
 
 ![Image](https://github.com/user-attachments/assets/1495d892-05e1-4621-a1ab-e40034375a46)
 
@@ -97,11 +97,11 @@ If you don't press a key, the following error will appear
 
 ![Image](https://github.com/user-attachments/assets/7952e9b3-4aa8-4409-b36d-e6beb09802e2)
 
-Click install to download OS
+Click **install** to download OS
 
 ![Image](https://github.com/user-attachments/assets/49acf621-12d5-4b66-ad04-2cc9b8974b3c)
 
-On the next screen, you'll see four operating system options. Make sure to select the one labeled "Standard with Desktop Experience" — without the Desktop Experience, you'll only get a command-line interface, not a graphical user interface (GUI)
+On the next screen, you'll see four operating system options. Make sure to select the one labeled **Standard with Desktop Experience** — without the Desktop Experience, you'll only get a command-line interface, not a graphical user interface (GUI)
 
 ![Image](https://github.com/user-attachments/assets/3e741a89-b242-4d87-91da-07ed344878ac)
 
@@ -111,11 +111,11 @@ Accept the license agreement to proceed with the installation
 
 ![Image](https://github.com/user-attachments/assets/0ce361cf-8bf4-4714-80a8-fd766d27e7e2)
 
-We need to select "Custom" on this screen because we're installing the OS on a new virtual machine. The "Upgrade" option is used only when an operating system is already installed and we want to update or upgrade it
+We need to select **Custom** on this screen because we're installing the OS on a new virtual machine. The "Upgrade" option is used only when an operating system is already installed and we want to update or upgrade it
 
 ![Image](https://github.com/user-attachments/assets/09480c54-d960-46d0-b3e0-510759e94f7a)
 
-The screen below displays the disk partition that we configured earlier and click Next
+The screen below displays the disk partition that we configured earlier and click **Next**
 
 ![Image](https://github.com/user-attachments/assets/83900dbc-f1bc-4835-a53c-8dd3d66cb04a)
 
@@ -123,7 +123,7 @@ The OS installation has now started
 
 ![Image](https://github.com/user-attachments/assets/acecd27e-0d05-4e08-9bdc-544508e2cfde)
 
-After the OS installation is complete, the screen below will appear, asking you to set a password for the Administrator account. Fill the password and Click Finish
+After the OS installation is complete, the screen below will appear, asking you to set a password for the Administrator account. Fill the password and Click **Finish**
  
 ![Image](https://github.com/user-attachments/assets/1c090f03-f4dd-4517-8f51-4ce2b4bfd327)
 
@@ -141,7 +141,7 @@ Once you log in, the Server Manager screen will open automatically
 
 ![Image](https://github.com/user-attachments/assets/8a93f535-8e4f-4a94-9dc2-a2a8dcaeaa6c)
 
-Optional: If you want to check the version of the Windows Server, type winver in the Run dialog and click OK.
+Optional: If you want to check the version of the Windows Server, type winver in the Run dialog and click **OK**.
 
 ![Image](https://github.com/user-attachments/assets/3e3737fe-f3e2-4353-a6fc-b4579a1690d6)
 
@@ -149,15 +149,15 @@ Optional: If you want to check the version of the Windows Server, type winver in
 
 Now, we’re going to install Active Directory. To start, go to Server Manager, which is the page that appeared when you logged in.
 
-In the top right corner, click Manage and then select Add Roles and Features. The screen below will open click Next
-
+In the top right corner, click Manage and then select Add Roles and Features. The screen below will open click **Next**
+ 
 ![Image](https://github.com/user-attachments/assets/058b482f-126a-4ecf-b206-849f7cf11e52)
 
-In the next screen, select Role-based or feature-based installation and click Next.
+In the next screen, select Role-based or feature-based installation and click **Next**.
 
 ![Image](https://github.com/user-attachments/assets/651fc491-90c6-486a-bc4d-1c854254fca0)
 
-In the Server Selection screen, leave everything set to default and click Next
+In the Server Selection screen, leave everything set to default and click **Next**
 
 ![Image](https://github.com/user-attachments/assets/d16ba9e9-bf03-4450-adc7-254e6e2b545a)
 
@@ -171,23 +171,23 @@ Optionally, you can also select additional features like DNS Server, DHCP, Remot
 
 ![Image](https://github.com/user-attachments/assets/b9e4c7b7-aace-462a-a11e-092fe7d625f0)
 
-Since we selected Active Directory Domain Services in the previous screen, Group Policy Management will be automatically checked in the next screen. Make sure it remains checked before proceeding amd click Next
+Since we selected Active Directory Domain Services in the previous screen, Group Policy Management will be automatically checked in the next screen. Make sure it remains checked before proceeding amd click **Next**
 
 ![Image](https://github.com/user-attachments/assets/0610e1f0-6f53-4c94-9f80-5ef0c0864a5b)
 
-TThe AD DS and Remote Access options are provided for your knowledge. Review the information and click Next to proceed. t
+TThe AD DS and Remote Access options are provided for your knowledge. Review the information and click **Next** to proceed.
 
 ![Image](https://github.com/user-attachments/assets/92b03302-287c-4dcc-b5a1-bc0b2b140ae9)
 
 ![Image](https://github.com/user-attachments/assets/b2064e8f-266a-4361-8ab6-9d0ae47e645e)
 
-In the following screens, check all three options and click Next. As a beginner, you don’t need to worry too much about these settings right now and click next
+In the following screens, check all three options and click **Next**. As a beginner, you don’t need to worry too much about these settings right now and click next
 
 ![Image](https://github.com/user-attachments/assets/fd194a46-0621-461b-bc42-cb061df7c632)
 
 ![Image](https://github.com/user-attachments/assets/99a24186-7614-4787-ab4a-9d7edb7835d1)
 
-"Click Next until you reach the confirmation screen, where you can review all your selected options. Once confirmed, click Install to proceed
+"Click **Next** until you reach the confirmation screen, where you can review all your selected options. Once confirmed, click **Install** to proceed
 
 ![Image](https://github.com/user-attachments/assets/6dcd66f9-708b-4f08-bfd3-c89cbd03970e)
 
@@ -199,18 +199,19 @@ In the following screens, check all three options and click Next. As a beginner,
 
 ![Image](https://github.com/user-attachments/assets/3f7c1fd1-38e4-4045-85ab-0b309fc9e22a)
 
-Once the installation is complete, Click 'Promote this server to a domain controller' on the same page to start the domain configuration
+Once the installation is complete, Click **Promote this server to a domain controller** on the same page to start the domain configuration
 
 ![Image](https://github.com/user-attachments/assets/38a25304-3486-4583-9587-45ea492bf83a)
 
 In the next screen, you'll see the Deployment Configuration. Since we’re creating a new domain, select Add a new forest
+
 ![Image](https://github.com/user-attachments/assets/8547fb88-d60a-44d4-a66d-fdc46f7ed03b)
 
 When selecting the root domain, make sure the domain name ends with .local (e.g., IT.local). This is because the domain is intended for local use only. Failing to do so may result in the error below
 
 ![Image](https://github.com/user-attachments/assets/928465ae-3ae0-446f-8701-22df47b5942b)
 
-The next screen will display the new forest with the domain name you entered (e.g., IT.local). Click Next to proceed
+The next screen will display the new forest with the domain name you entered (e.g., IT.local). Click **Next** to proceed
 
 ![Image](https://github.com/user-attachments/assets/f704b736-aa67-44c9-af47-f3beadba8069)
 
@@ -218,13 +219,13 @@ In the Domain Controller Options section, the Forest Functional Level is set to 
 
 ![Image](https://github.com/user-attachments/assets/aaf09f29-53b7-4fc4-891a-1034ac8144d5)
 
-Click Next for the DNS Options.
+Click **Next** for the DNS Options.
 
 In the Additional Options, make sure the NetBIOS name matches the root domain name (e.g., IT if your domain is IT.local).
 
 ![Image](https://github.com/user-attachments/assets/b273c6ec-465a-4305-be2f-d71146d978fe)
 
-After that, click Next for the Paths and review the options. Once everything looks good, proceed to the Prerequisites Check. Once the system verifies everything is correct, click Install to begin the domain promotion process.
+After that, click **Next** for the Paths and review the options. Once everything looks good, proceed to the Prerequisites Check. Once the system verifies everything is correct, click Install to begin the domain promotion process.
 
 ![Image](https://github.com/user-attachments/assets/7aa926e4-b3b5-4431-b94b-f5a9af15ee9f)
 
@@ -265,7 +266,7 @@ Now, the  OU appears under our domain IT.local
 
 The screen below shows how to create a new  OU within an existing Organizational Unit OU.
 
-For example, right-click on UK -> New -> Organizational Unit OU.
+For example, **Right-click on UK -> New -> Organizational Unit OU**
 
 ![Image](https://github.com/user-attachments/assets/4c52de59-8deb-4fb8-b545-7416feff3dfa)
 
@@ -279,9 +280,9 @@ I have created 3 OUs, and inside each OU, I've added sub-OUs named Computers, Us
 
 Next, we will create Groups under the Users OU. Follow the steps below to create a group:
 
-Right-click on the Users OU.
+**Right-click on the Users OU**
 
-Select New → Group. The below screen will appear
+**Select New → Group**. The below screen will appear
 
 ![Image](https://github.com/user-attachments/assets/b25a39bd-3de5-4413-a729-8046c481035f)
 
@@ -321,7 +322,7 @@ Finally, we can create different user accounts under the User OU.
 
 To do this, right-click on the User OU, select New, and then choose User
 
-The screen below will appear, where you can create the user's Full Name and Logon Name and click Next. This is the username the user will use to log into the domain. You can customize these fields as per your requirements.
+The screen below will appear, where you can create the user's Full Name and Logon Name and click **Next**. This is the username the user will use to log into the domain. You can customize these fields as per your requirements.
 
 ![Image](https://github.com/user-attachments/assets/4674768d-c9da-4f30-b121-f7a1e2fc3679)
 
