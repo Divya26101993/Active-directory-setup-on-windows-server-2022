@@ -241,9 +241,97 @@ When you click Start and navigate to Windows Administrative Tools, you'll be abl
 
 ### Step 4: Setting up Organizational Units(OU), Groups and Users in Active directory
 
+From the Start menu, navigate to Windows Administrative Tools and select Active Directory Users and Computers.
 
+The window that opens will display your domain name (e.g., IT.local) in the left pane.
 
+![Image](https://github.com/user-attachments/assets/82f3430f-f736-4b85-98c5-aa3d9e2a9513)
 
+Click the dropdown arrow next to IT.local to expand the domain and view its organizational units and components
+
+![Image](https://github.com/user-attachments/assets/d14f7bff-8e11-4aa6-a26f-b0029015db69)
+
+Right-click on IT.local, then select New > Organizational Unit to create a new organizational unit within the domain
+
+![Image](https://github.com/user-attachments/assets/c52318d7-b9b1-4b65-8e60-4d5ba4f76a34)
+
+The following screen will appear. In this example, the Organizational Unit (OU) is named UK.
+
+![Image](https://github.com/user-attachments/assets/874c86b6-9904-46f8-81f6-6ecbff310926)
+
+Now, the Organizational Unit (OU) appears under our domain IT.local
+
+![Image](https://github.com/user-attachments/assets/4840bc06-69fa-4c91-88a5-3d3e1a9e88e9)
+
+The screen below shows how to create a new Organizational Unit (OU) within an existing Organizational Unit (OU).
+
+For example, right-click on UK -> New -> Organizational Unit (OU).
+
+![Image](https://github.com/user-attachments/assets/4c52de59-8deb-4fb8-b545-7416feff3dfa)
+
+I have created 3 OUs under the domain, and you can see them listed on the right side. The type column clearly distinguishes between Organizational Units (OU), Groups, and Users
+
+![Image](https://github.com/user-attachments/assets/fa2e0cdc-9d06-4a26-962d-9212bbefadc8)
+
+I have created 3 OUs, and inside each OU, I've added sub-OUs named Computers, Users, and Servers. You can see these listed under the respective OUs in the directory
+
+![Image](https://github.com/user-attachments/assets/272d5955-41a1-4855-b4f2-b75b6ee96ad4)
+
+Next, we will create Groups under the Users OU. Follow the steps below to create a group:
+
+Right-click on the Users OU.
+
+Select New → Group. The below screen will appear
+
+![Image](https://github.com/user-attachments/assets/b25a39bd-3de5-4413-a729-8046c481035f)
+
+After typing the group name (e.g.,IT) and selecting OK, the group will be created under the Users OU.
+
+The selection of Group Scope and Group Type depends on your specific requirements and how you plan to manage permissions and resources.
+
+**Group Scope:Domain Local: Used for granting permissions to resources in the same domain.
+
+Global: Ideal for organizing users that belong to the same domain.
+
+Universal: Best for users from multiple domains within the forest, especially when assigning permissions across domains.
+
+Group Type:
+
+Security: Used to assign permissions to resources and manage access control.
+
+Distribution: Used for email distribution lists and does not grant access permissions**
+
+The following screenshot shows the **Group Scope set to Global** and the **Group Type set to Security**
+
+This configuration is commonly used when you need a group to include users from the same domain (Global) and use that group for controlling access to network resources (Security).
+
+![Image](https://github.com/user-attachments/assets/9ce9fc23-93fe-4534-ac39-07d0ddee19e8)
+
+The following screenshot shows the Group Scope set to Global and the Group Type set to Distribution.
+
+This setup is typically used when you want to create a group for email distribution purposes, where the group members are from the same domain (Global) but the group is not used for security-related functions.
+
+![Image](https://github.com/user-attachments/assets/1234073e-e98b-4794-91c5-e0e1e2605302)
+
+When you click on a user, you will see IT and DL (Distribution Lists) groups on the right-hand side.
+
+Finally, we can create different user accounts under the User OU.
+
+To do this, right-click on the User OU, select New, and then choose User
+
+The screen below will appear, where you can create the user's Full Name and Logon Name and click Next. This is the username the user will use to log into the domain. You can customize these fields as per your requirements.
+
+![Image](https://github.com/user-attachments/assets/4674768d-c9da-4f30-b121-f7a1e2fc3679)
+
+![Image](https://github.com/user-attachments/assets/a5389b46-e468-48ec-ad10-d30284fd9608)
+
+Next, the password screen will appear. Depending on the company's policy, you can select password restrictions and click **Next**
+
+![Image](https://github.com/user-attachments/assets/78316aa3-443d-4834-8343-2952f23cb0ed)
+
+When you click on "Users," you will see two different types: Groups and Users, each listed separately in the directory.
+
+![Image](https://github.com/user-attachments/assets/14dff8ba-7779-4b7a-8b7e-3dfafd27b9ed)
 
 
 
