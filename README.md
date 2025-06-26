@@ -335,5 +335,10 @@ When you click on "Users," you will see two different types: Groups and Users, e
 
 ![Image](https://github.com/user-attachments/assets/14dff8ba-7779-4b7a-8b7e-3dfafd27b9ed)
 
+## Resources
+
+Window server 2022 ISO File (https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
+
+
 
 
