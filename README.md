@@ -21,7 +21,7 @@ The following screen will appear. From there, select your preferred language and
 
 ![Image](https://github.com/user-attachments/assets/cc3810e8-2a7f-4ff4-a159-5e28dca53d84)
 
-Once you click the link, the **Windows Server ISO file** will begin downloading. Allow some time for the download to finish. When it's 100% complete, navigate to your **Downloads** folder and verify that the file is correct and fully downloaded.
+After clicking the link, the Windows Server ISO file will begin downloading. Allow the download to complete, and once it's finished, navigate to your **Downloads folder** to verify that the file has been correctly downloaded
 
 ![Image](https://github.com/user-attachments/assets/b2a6a258-0c89-4c4a-b2ed-205b96433e5a)
 
@@ -52,11 +52,11 @@ You can either change the virtual machine name or leave it as the default
 
 ![Image](https://github.com/user-attachments/assets/fd17cdff-6904-4db7-8eb2-dbf69c00bc32)
 
-The screenshot below shows that you can customize the disk capacity, but the recommended disk size for Windows Server 2022 is 60GB. It’s best to leave it set to the default and click next
+The screenshot below shows that you can customize the disk capacity, but the recommended disk size for Windows Server 2022 is 60GB. It’s best to leave it set to the default and click **Next**
 
 ![Image](https://github.com/user-attachments/assets/5483e5ec-e2cc-42db-b7c3-9c54fb2f117d)
 
-Once you've configured all the settings for the virtual machine, click Finish to complete the setup
+After configuring all the settings for the virtual machine, click Finish to complete the setup.
 
 ![Image](https://github.com/user-attachments/assets/c1131c91-d02b-477c-a589-e7e5ef7fcae6)
 
@@ -77,7 +77,7 @@ In the settings Select CD/DVD (SATA)
 
 ![Image](https://github.com/user-attachments/assets/ad71ef6b-642c-4565-a911-3f8ebffb4445)
 
-As mentioned earlier, we will browse for the OS here. Select Use ISO image file and then browse to select the file and click ok.
+As mentioned earlier, browse for the OS here. Select Use ISO image file, then browse to the downloaded file and click OK.
 
 ![Image](https://github.com/user-attachments/assets/27fb63ef-e532-484a-952c-d59e701eea0c)
 
