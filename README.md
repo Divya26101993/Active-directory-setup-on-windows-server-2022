@@ -199,7 +199,7 @@ In the following screens, check all three options and click Next. As a beginner,
 
 ![Image](https://github.com/user-attachments/assets/3f7c1fd1-38e4-4045-85ab-0b309fc9e22a)
 
-Once the installation is complete, click Promote this server to a domain controller on the same page to begin the domain configuration
+Once the installation is complete, Click 'Promote this server to a domain controller' on the same page to start the domain configuration
 
 ![Image](https://github.com/user-attachments/assets/38a25304-3486-4583-9587-45ea492bf83a)
 
@@ -210,7 +210,7 @@ When selecting the root domain, make sure the domain name ends with .local (e.g.
 
 ![Image](https://github.com/user-attachments/assets/928465ae-3ae0-446f-8701-22df47b5942b)
 
-The following screen will display the new forest with the domain name you entered (e.g., IT.local). Click Next to continue.
+The next screen will display the new forest with the domain name you entered (e.g., IT.local). Click Next to proceed
 
 ![Image](https://github.com/user-attachments/assets/f704b736-aa67-44c9-af47-f3beadba8069)
 
@@ -239,11 +239,11 @@ When you click Start and navigate to Windows Administrative Tools, you'll be abl
 ![Image](https://github.com/user-attachments/assets/a14975ec-0749-4dba-8121-a629c0038056)
 
 
-### Step 4: Setting up Organizational Units(OU), Groups and Users in Active directory
+### Step 4:Creating Organizational Units (OUs)" and "Creating Groups and Users
 
 From the Start menu, navigate to Windows Administrative Tools and select Active Directory Users and Computers.
 
-The window that opens will display your domain name (e.g., IT.local) in the left pane.
+The window that opens will display your domain name (e.g., IT.local) and its Organizational Units (OU) in the left pane.
 
 ![Image](https://github.com/user-attachments/assets/82f3430f-f736-4b85-98c5-aa3d9e2a9513)
 
@@ -251,25 +251,25 @@ Click the dropdown arrow next to IT.local to expand the domain and view its orga
 
 ![Image](https://github.com/user-attachments/assets/d14f7bff-8e11-4aa6-a26f-b0029015db69)
 
-Right-click on IT.local, then select New > Organizational Unit to create a new organizational unit within the domain
+Right-click on IT.local, then select New > Organizational Unit (OU) to create a new organizational unit within the domain
 
 ![Image](https://github.com/user-attachments/assets/c52318d7-b9b1-4b65-8e60-4d5ba4f76a34)
 
-The following screen will appear. In this example, the Organizational Unit (OU) is named UK.
+The following screen will appear. In this example, the  OU is named UK.
 
 ![Image](https://github.com/user-attachments/assets/874c86b6-9904-46f8-81f6-6ecbff310926)
 
-Now, the Organizational Unit (OU) appears under our domain IT.local
+Now, the  OU appears under our domain IT.local
 
 ![Image](https://github.com/user-attachments/assets/4840bc06-69fa-4c91-88a5-3d3e1a9e88e9)
 
-The screen below shows how to create a new Organizational Unit (OU) within an existing Organizational Unit (OU).
+The screen below shows how to create a new  OU within an existing Organizational Unit OU.
 
-For example, right-click on UK -> New -> Organizational Unit (OU).
+For example, right-click on UK -> New -> Organizational Unit OU.
 
 ![Image](https://github.com/user-attachments/assets/4c52de59-8deb-4fb8-b545-7416feff3dfa)
 
-I have created 3 OUs under the domain, and you can see them listed on the right side. The type column clearly distinguishes between Organizational Units (OU), Groups, and Users
+I have created 3 OUs under the domain, and you can see them listed on the right side. The type column clearly distinguishes between OU, Groups, and Users
 
 ![Image](https://github.com/user-attachments/assets/fa2e0cdc-9d06-4a26-962d-9212bbefadc8)
 
@@ -287,21 +287,23 @@ Select New → Group. The below screen will appear
 
 After typing the group name (e.g.,IT) and selecting OK, the group will be created under the Users OU.
 
-The selection of Group Scope and Group Type depends on your specific requirements and how you plan to manage permissions and resources.
+The selection of Group Scope and Group Type depends on your needs for managing permissions and resources
 
-**Group Scope:Domain Local: Used for granting permissions to resources in the same domain.
+**Group Scope:
 
-Global: Ideal for organizing users that belong to the same domain.
+Domain Local:Used for granting permissions to resources within the same domain
 
-Universal: Best for users from multiple domains within the forest, especially when assigning permissions across domains.
+Global: Ideal for organizing users within the same domain
+
+Universal: Best for users across multiple domains within a forest, especially when assigning permissions across domains.
 
 Group Type:
 
-Security: Used to assign permissions to resources and manage access control.
+The Security group type is used when you want to manage user permissions and access to shared resources. 
 
-Distribution: Used for email distribution lists and does not grant access permissions**
+If you just want to create an email list without managing resource access, use the Distribution group type.
 
-The following screenshot shows the **Group Scope set to Global** and the **Group Type set to Security**
+The following screenshot shows the Group Scope set to Global and the Group Type set to Security, which is typically used for managing access to resources in the same domain
 
 This configuration is commonly used when you need a group to include users from the same domain (Global) and use that group for controlling access to network resources (Security).
 
