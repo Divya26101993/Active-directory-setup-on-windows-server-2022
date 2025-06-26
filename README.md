@@ -338,6 +338,16 @@ When you click on "Users," you will see two different types: Groups and Users, e
 ## Resources
 
 Window server 2022 ISO File (https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
+VMware file -(https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion )
+[Check out this tutorial on YouTube](https://www.youtube.com/watch?v=GsmJowwIh8Q)
+[Check out this tutorial on YouTube](https://www.youtube.com/watch?v=D32T6dWvnLE)
+
+## Author
+Github: [Divya26101993](https://github.com/Divya26101993)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE)
 
 
 
