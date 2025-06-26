@@ -1,8 +1,7 @@
 # Installing Active Directory on Windows Server 2022 in a VMware Virtual Machine
-This guide provides detailed instructions for setting up **Active Directory (AD)** on **Windows Server 2022** within a **VMware Virtual Machine (VM)**. Active Directory is a vital service for managing network resources, users, and security policies in a domain environment. 
+This guide offers step-by-step instructions to set up **Active Directory (AD)** on **Windows Server 2022** running in a **VMware Virtual Machine (VM)**. Active Directory is a vital service for managing network resources, users, and security policies in a domain environment. 
 
-By following this guide, you'll create a virtualized domain controller, groups and users. This is  perfect for testing, learning, or development purposes.
-
+By following this guide, you'll set up a virtualized domain controller, along with creating groups and users for your domain
 
 ## Requirements
 
@@ -57,7 +56,7 @@ The screenshot below shows that you can customize the disk capacity, but the rec
 
 ![Image](https://github.com/user-attachments/assets/5483e5ec-e2cc-42db-b7c3-9c54fb2f117d)
 
-Once all the settings are configured for the virtual machine, click Finish to complete the setup
+Once you've configured all the settings for the virtual machine, click Finish to complete the setup
 
 ![Image](https://github.com/user-attachments/assets/c1131c91-d02b-477c-a589-e7e5ef7fcae6)
 
@@ -74,7 +73,7 @@ You can modify all VM settings, such as the processor, memory, and more
 
 ![Image](https://github.com/user-attachments/assets/cd859510-e3f3-49c1-bace-34fc850ad49d)
 
-In the settings Select CD/DVD(SATA)
+In the settings Select CD/DVD (SATA)
 
 ![Image](https://github.com/user-attachments/assets/ad71ef6b-642c-4565-a911-3f8ebffb4445)
 
@@ -124,7 +123,7 @@ The OS installation has now started
 
 ![Image](https://github.com/user-attachments/assets/acecd27e-0d05-4e08-9bdc-544508e2cfde)
 
-Once the OS is installed, the screen below will appear, prompting you to set a password for the Administrator account. Fill the password and Click Finish
+After the OS installation is complete, the screen below will appear, asking you to set a password for the Administrator account. Fill the password and Click Finish
  
 ![Image](https://github.com/user-attachments/assets/1c090f03-f4dd-4517-8f51-4ce2b4bfd327)
 
@@ -162,7 +161,7 @@ In the Server Selection screen, leave everything set to default and click Next
 
 ![Image](https://github.com/user-attachments/assets/d16ba9e9-bf03-4450-adc7-254e6e2b545a)
 
-The main goal here is to create a domain and add groups and users within it. So, select Active Directory Domain Services. When you click it, you'll see an option to Add Features — click that to proceed
+The primary goal here is to create a domain, and then add groups and users within that domain. So, select Active Directory Domain Services. When you click it, you'll see an option to Add Features — click that to proceed
 
 ![Image](https://github.com/user-attachments/assets/c967c71f-fa03-49db-b81b-938adfc1c5d2)
 
@@ -176,7 +175,7 @@ Since we selected Active Directory Domain Services in the previous screen, Group
 
 ![Image](https://github.com/user-attachments/assets/0610e1f0-6f53-4c94-9f80-5ef0c0864a5b)
 
-The AD DS and Remote Access options are provided for your knowledge. Go ahead and read the information, then click Next to continue
+TThe AD DS and Remote Access options are provided for your knowledge. Review the information and click Next to proceed. t
 
 ![Image](https://github.com/user-attachments/assets/92b03302-287c-4dcc-b5a1-bc0b2b140ae9)
 
@@ -188,7 +187,7 @@ In the following screens, check all three options and click Next. As a beginner,
 
 ![Image](https://github.com/user-attachments/assets/99a24186-7614-4787-ab4a-9d7edb7835d1)
 
-Click Next until you reach the confirmation screen. On this page, you'll see all the options you’ve selected. Once you review them, click Install to begin the process
+"Click Next until you reach the confirmation screen, where you can review all your selected options. Once confirmed, click Install to proceed
 
 ![Image](https://github.com/user-attachments/assets/6dcd66f9-708b-4f08-bfd3-c89cbd03970e)
 
@@ -200,19 +199,18 @@ Click Next until you reach the confirmation screen. On this page, you'll see all
 
 ![Image](https://github.com/user-attachments/assets/3f7c1fd1-38e4-4045-85ab-0b309fc9e22a)
 
-Once the installation is complete, click Promote this server to a domain controller on the same page
+Once the installation is complete, click Promote this server to a domain controller on the same page to begin the domain configuration
 
 ![Image](https://github.com/user-attachments/assets/38a25304-3486-4583-9587-45ea492bf83a)
 
-The next screen will show the Deployment Configuration. Since we're creating a new domain, select **Add a new forest** 
-
+In the next screen, you'll see the Deployment Configuration. Since we’re creating a new domain, select Add a new forest
 ![Image](https://github.com/user-attachments/assets/8547fb88-d60a-44d4-a66d-fdc46f7ed03b)
 
-When selecting the root domain name, make sure to use a name with .local (e.g., IT.local) because this domain is intended for local use only. If you don’t, the following error may appear
+When selecting the root domain, make sure the domain name ends with .local (e.g., IT.local). This is because the domain is intended for local use only. Failing to do so may result in the error below
 
 ![Image](https://github.com/user-attachments/assets/928465ae-3ae0-446f-8701-22df47b5942b)
 
-The next screen will show the new forest with the correct domain name you entered (e.g., IT.local), then click **Next**
+The following screen will display the new forest with the domain name you entered (e.g., IT.local). Click Next to continue.
 
 ![Image](https://github.com/user-attachments/assets/f704b736-aa67-44c9-af47-f3beadba8069)
 
@@ -226,7 +224,7 @@ In the Additional Options, make sure the NetBIOS name matches the root domain na
 
 ![Image](https://github.com/user-attachments/assets/b273c6ec-465a-4305-be2f-d71146d978fe)
 
-After that, click Next for the Paths and review the options. Once everything looks good, proceed to the Prerequisites Check. After it verifies that everything is correct, click Install to start the promotion process.
+After that, click Next for the Paths and review the options. Once everything looks good, proceed to the Prerequisites Check. Once the system verifies everything is correct, click Install to begin the domain promotion process.
 
 ![Image](https://github.com/user-attachments/assets/7aa926e4-b3b5-4431-b94b-f5a9af15ee9f)
 
