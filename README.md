@@ -1,4 +1,5 @@
 # Installing Active Directory on Windows Server 2022 in a VMware Virtual Machine
+
 This guide offers step-by-step instructions to set up **Active Directory (AD)** on **Windows Server 2022** running in a **VMware Virtual Machine (VM)**. Active Directory is a vital service for managing network resources, users, and security policies in a domain environment. 
 
 By following this guide, you'll set up a virtualized domain controller, along with creating groups and users for your domain
@@ -344,6 +345,7 @@ VMware file -(https://www.vmware.com/products/desktop-hypervisor/workstation-and
 [Check out this tutorial on YouTube](https://www.youtube.com/watch?v=D32T6dWvnLE)
 
 ## Author
+
 Github: [Divya26101993](https://github.com/Divya26101993)
 
 ## License
